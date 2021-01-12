@@ -1,15 +1,15 @@
 $(document).ready(function(){
 
-  // $('.dropdown-menu').onclick(function(){
-  //   addClass('active');
-  // });
-
-  $(".it").click(function(){
-    $(this).children('.dropdown-menu')removeClass('show');
-    $(this).addClass('hidden');
-});
+  $('.with-dropdown').hover(function(){
+    $(this).children('.dropdown-menu').toggleClass('active');
   });
 
+
+  $(".it").click(function () {
+    $(this).find(".hidden").show();
+    $(this).find(".show").hide();
+
+})
 
 
 });
