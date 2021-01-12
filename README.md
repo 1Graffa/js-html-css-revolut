@@ -1,1 +1,1 @@
-js-html-css-revolut
+js-jq-carousel
