@@ -92,11 +92,11 @@ button:hover{
   transform: scale(1.1);
 }
 /* DROPDOWN */
-.dropdown-menu,
-.dropdown-menu-lingua {
+.dropdown-menu {
   display: none;
 }
 .dropdown-menu.active {
+  display: block;
 }
 .lista{
   position: absolute;

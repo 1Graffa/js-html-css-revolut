@@ -13,15 +13,15 @@ var frecciaLingua = $(".it");
 // FINE parte sinistra nav
 
   $('.with-dropdown').mouseenter(function(){
-    $(this).children('.dropdown-menu').removeClass('dropdown-menu').addClass('dropdown-menu.active');
+    $(this).children('.dropdown-menu').addClass('active');
   });
   $('.with-dropdown').mouseleave(function(){
-    $(this).children('.dropdown-menu.active').removeClass('dropdown-menu.active').addClass('dropdown-menu');
+    $(this).children('.dropdown-menu.active').removeClass('active');
   });
 
   frecciaLingua.click(function () {
     $(this).find("i").toggleClass("rotate");
-    $(this).children('.dropdown-menu-lingua').removeClass('dropdown-menu-lingua').addClass('dropdown-menu.active');
+    $(this).children('.dropdown-menu').toggleClass("active");
 
   })
 
