@@ -33,6 +33,8 @@ var frecciaLingua = $(".it");
 
   })
 
+//marquee
+  $('#maindiv').width($('#slogan').width());
 
 
 });
